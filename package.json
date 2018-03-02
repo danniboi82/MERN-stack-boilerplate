@@ -1,0 +1,27 @@
+{
+  "name": "mern-stack-boilerplate",
+  "version": "1.0.0",
+  "description": "personal boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danniboi82/MERN-stack-boilerplate.git"
+  },
+  "author": "danoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danniboi82/MERN-stack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/danniboi82/MERN-stack-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
